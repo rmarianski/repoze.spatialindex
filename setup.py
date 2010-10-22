@@ -4,6 +4,8 @@ import sys, os
 version = '0.1'
 
 requires = [
+    'zope.interface',
+    'Rtree',
     'repoze.catalog',
     ]
 
